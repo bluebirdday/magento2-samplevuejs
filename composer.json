@@ -1,0 +1,22 @@
+{
+    "name": "bluebirdday/module-samplevuejs",
+    "description": "A Magento 2 module that creates a page with a VueJS component",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "ezrabotter@bluebirdday.nl",
+            "name": "Ezra Botter"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bluebirdday\\SampleVueJs\\": ""
+        }
+    }
+}
