@@ -14400,8 +14400,6 @@ var _vue = _interopRequireDefault(__webpack_require__(1));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
 
-function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
-
 _vue["default"].use(_vuex["default"]);
 
 var store = new _vuex["default"].Store({
@@ -14414,11 +14412,11 @@ var store = new _vuex["default"].Store({
   mutations: {
     initialiseStore: function initialiseStore(state) {
       if (localStorage.getItem('mage-cache-storage')) {
-        this.replaceState(_extends(state, JSON.parse(localStorage.getItem('mage-cache-storage'))));
+        this.replaceState(Object.assign(state, JSON.parse(localStorage.getItem('mage-cache-storage'))));
       }
     },
     setConfig: function setConfig(state, config) {
-      state.config = _extends(state.config, config);
+      state.config = Object.assign(state.config, config);
     }
   }
 });

@@ -995,11 +995,6 @@ base@^0.11.1:
     mixin-deep "^1.2.0"
     pascalcase "^0.1.1"
 
-bezier-easing@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/bezier-easing/-/bezier-easing-2.1.0.tgz#c04dfe8b926d6ecaca1813d69ff179b7c2025d86"
-  integrity sha1-wE3+i5JtbsrKGBPWn/F5t8ICXYY=
-
 big.js@^5.2.2:
   version "5.2.2"
   resolved "https://registry.yarnpkg.com/big.js/-/big.js-5.2.2.tgz#65f0af382f578bcdc742bd9c281e9cb2d7768328"
@@ -1248,11 +1243,6 @@ class-utils@^0.3.5:
     define-property "^0.2.5"
     isobject "^3.0.0"
     static-extend "^0.1.1"
-
-cleave.js@^1.4.2:
-  version "1.4.10"
-  resolved "https://registry.yarnpkg.com/cleave.js/-/cleave.js-1.4.10.tgz#40505827f07c148be6822522504901fca278a445"
-  integrity sha512-7AWnh+6pgQbbRT+e7WnK/yc+U50zhtQZklvEcKDiFDpfcu3kb300BdV7FMYtGOIsAzD5TKy7KH38ZwgyWyFE2Q==
 
 cliui@^2.1.0:
   version "2.1.0"
@@ -3936,13 +3926,6 @@ vm-browserify@0.0.4:
   dependencies:
     indexof "0.0.1"
 
-vue-cleave-component@^2.1.2:
-  version "2.1.2"
-  resolved "https://registry.yarnpkg.com/vue-cleave-component/-/vue-cleave-component-2.1.2.tgz#7736adca0520093d711eae6677e8ddb23fd26a03"
-  integrity sha512-h1H+yUJJDU28/HLUwxpFtK9JqLfATI8ve17vTGaT3Mfrkd8QuKl0db4/aGY9FMfkv05VQBquglf+P/cn1WgrAA==
-  dependencies:
-    cleave.js "^1.4.2"
-
 vue-hot-reload-api@^2.2.0:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.3.tgz#2756f46cb3258054c5f4723de8ae7e87302a1ccf"
@@ -3973,13 +3956,6 @@ vue-resource@^1.5.1:
   integrity sha512-o6V4wNgeqP+9v9b2bPXrr20CGNQPEXjpbUWdZWq9GJhqVeAGcYoeTtn/D4q059ZiyN0DIrDv/ADrQUmlUQcsmg==
   dependencies:
     got "^8.0.3"
-
-vue-scrollto@^2.14.0:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/vue-scrollto/-/vue-scrollto-2.15.0.tgz#e6e4645dfd2efc0d960123f607c2ab448b81670a"
-  integrity sha512-FmJncIrXvsqvyVAN55Trc2CQWVDyxuMgdQQp1Q9I9bhoEi7XXpvXXQonhbFBktzNggJf1rpfHpVqa8KLhPeePQ==
-  dependencies:
-    bezier-easing "2.1.0"
 
 vue-style-loader@^4.0.1:
   version "4.1.2"
